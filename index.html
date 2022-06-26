@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="styles/src/main.css?v=1">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <title>Document</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header__wrapper">
+      <h1 class="header__logo"><a href="">LoremIpsum.<span>Net</span></a></h1>
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="" class="navbar__item-link">Бизнес</a>
+          </li>
+          <li class="navbar__item">
+            <a href="" class="navbar__item-link">О нас</a>
+          </li>
+          <li class="navbar__item">
+            <a href="" class="navbar__item-link">Цены</a>
+          </li>
+          <li class="navbar__item">
+            <a href="" class="navbar__item-link">Оформить заказ</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="menu-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="description">
+  <div class="container">
+    <div class="description__wrapper">
+      <h1 class="description__title">
+        <span>Lorem ipsum</span> dolor sit ametconsectetur <span>adipiscing</span>
+      </h1>
+      <div class="description__advantages">
+        <h4 class="advantages__list-title">
+          At vero eos et accusamus et iusto odio dignissimos ducimus!
+        </h4>
+        <ul class="advantages__list">
+          <li class="advantages__item">- Totam rem aperiam eaque ipsa</li>
+          <li class="advantages__item">- Sit voluptatem accusantium doloremque laudantium</li>
+          <li class="advantages__item">- Sed ut perspiciatis, unde omnis iste natus error</li>
+        </ul>
+      </div>
+      <div class="description__buttons">
+        <button class="btn__order btn">заказать</button>
+        <button class="btn__about btn">подробнее</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="order">
+  <div class="container">
+    <div class="order__wrapper">
+      <div class="order__info">
+        <h1 class="order__info-title">оформление <span>заказа</span></h1>
+        <span class="order__info-text">Перед заполнением формы ознакомьтесь с нашей схемой работы!</span>
+      </div>
+      <div class="order__process">
+        <ul class="order__process-list">
+          <li class="order__process-item">
+            <div class="process-item__circle process-item__zoom"></div>
+            <span class="process-item__text">Lorem ipsum dolor
+sit amet</span>
+          </li>
+          <li class="order__process-item">
+            <div class="process-item__circle process-item__circle_procent"></div>
+            <span class="process-item__text">Сonsecteturadipiscing elit</span>
+          </li>
+          <li class="order__process-item ">
+            <div class="process-item__circle process-item__circle_doc"></div>
+            <span class="process-item__text">Сonsecteturadipiscing elit</span>
+          </li>
+          <li class="order__process-item ">
+            <div class="process-item__circle process-item__circle_mail"></div>
+            <span class="process-item__text">Esse cillum dolore
+eu fugiat</span>
+          </li>
+          <li class="order__process-item">
+            <div class="process-item__circle process-item__circle_cash"></div>
+            <span class="process-item__text">Excepteur sint occaecat cupidatat non proident</span>
+          </li>
+        </ul>
+      </div>
+
+      <form action="" class="order__form">
+        <div class="form__wrapper">
+          <select name="state" required="required" class="form__w1 services-select">
+            <option value="">Выберите тип системы</option>
+            <option>Вопрос по работе сервиса</option>
+            <option>Помощь в оформлении заказа</option>
+            <option>Сотрудничество</option>
+            <option>Пожелания / предложения</option>
+          </select>
+          <input placeholder="Ваш e-mail" type="email" name="email" required="required" class="form__w1">
+          <input placeholder="Введите имя" type="text" name="name" required="required" class="form__w1">
+          <div class="slidecontainer">
+            <div class="slidecontainer__info">
+              <p>Sed ut perspiciatis, unde omnis iste natus</p>
+              <p><span id="demo"></span> %</p>
+            </div>
+            <input type="range" min="1" max="100" value="50" class="slider form__w2" id="myRange">
+          </div>
+          <div class="input__wrapper form__w1">
+            <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+            <label for="input__file" class="input__file-button btn">
+              <span class="input__file-button-text">Прикрепить файл</span>
+            </label>
+          </div>
+        </div>
+        <input type="submit" value="Отправить" class="form__w1 form__submit-btn btn">
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <span class="agreement">© 2018 «LOREMIPSUM.NET» Все права защищены.</span>
+      <ul class="pay-list">
+        <li class="pay-list__item qiwi">QIWI wallet</li>
+        <li class="pay-list__item yandexM">Yandex Money</li>
+        <li class="pay-list__item webmoney">Web Money</li>
+      </ul>
+      <ul class="socials">
+        <li class="socials__item"><a href="mailto:info@ipsum228.com" class="social__links">info@ipsum228.com</a></li>
+        <li class="socials__item"><a href="https://vk.com" class="social__links">Мы вконтакте</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+<script src="js/app.js">
+</script>
+<script src="js/select2.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.services-select').select2();
+    });
+</script>
+</html>

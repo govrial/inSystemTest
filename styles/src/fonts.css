@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Lato-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/dist/Lato-Regular.eot") format("eot");
+  src: url("/fonts/dist/Lato-Regular.svg") format("svg");
+  src: url("/fonts/dist/Lato-Regular.ttf") format("ttf");
+  src: url("/fonts/dist/Lato-Regular.woff") format("woff");
+  src: url("/fonts/dist/Lato-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lato-Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/dist/Lato-Semibold.eot") format("eot");
+  src: url("/fonts/dist/Lato-Semibold.svg") format("svg");
+  src: url("/fonts/dist/Lato-Semibold.ttf") format("ttf");
+  src: url("/fonts/dist/Lato-Semibold.woff") format("woff");
+  src: url("/fonts/dist/Lato-Semibold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lato-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/dist/Lato-Bold.eot") format("eot");
+  src: url("/fonts/dist/Lato-Bold.svg") format("svg");
+  src: url("/fonts/dist/Lato-Bold.ttf") format("ttf");
+  src: url("/fonts/dist/Lato-Bold.woff") format("woff");
+  src: url("/fonts/dist/Lato-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lato-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/dist/Lato-Black.eot") format("eot");
+  src: url("/fonts/dist/Lato-Black.svg") format("svg");
+  src: url("/fonts/dist/Lato-Black.ttf") format("ttf");
+  src: url("/fonts/dist/Lato-Black.woff") format("woff");
+  src: url("/fonts/dist/Lato-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/dist/Raleway-ExtraBold.eot") format("eot");
+  src: url("/fonts/dist/Raleway-ExtraBold.svg") format("svg");
+  src: url("/fonts/dist/Raleway-ExtraBold.ttf") format("ttf");
+  src: url("/fonts/dist/Raleway-ExtraBold.woff") format("woff");
+  src: url("/fonts/dist/Raleway-ExtraBold.woff2") format("woff2");
+}
+
+/*# sourceMappingURL=fonts.css.map */

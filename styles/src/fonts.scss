@@ -1,0 +1,22 @@
+@mixin font($fname, $fontweight, $fnamefull, $fontstyle) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fontstyle;
+		font-weight: $fontweight;
+		src: url('/fonts/dist/'+ $fnamefull +'.eot') format("eot");
+		src: url('/fonts/dist/'+ $fnamefull +'.svg') format("svg");
+		src: url('/fonts/dist/'+ $fnamefull +'.ttf') format("ttf");
+		src: url('/fonts/dist/'+ $fnamefull +'.woff') format("woff");
+		src: url('/fonts/dist/'+ $fnamefull +'.woff2') format("woff2");
+	}
+}
+
+@include font('Lato-Regular', normal, 'Lato-Regular', normal);
+@include font('Lato-Bold', normal, 'Lato-Bold', normal);
+@include font('Lato-Black', normal, 'Lato-Black', normal);
+@include font('Raleway-ExtraBold', normal, 'Raleway-ExtraBold', normal);
+
+$font_regular: 'Lato-Regular';
+$font_bold: "Montserrat-Medium";
+$font_black: "Lato-Black";
+$font_extra-bold: "Raleway-ExtraBold";
