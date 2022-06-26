@@ -680,6 +680,7 @@ button {
   }
   .order__process-item {
     margin-right: 0;
+    margin-top: 40px;
   }
   .order__process-item .process-item__circle::after {
     display: none;
