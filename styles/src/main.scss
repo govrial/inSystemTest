@@ -178,6 +178,8 @@ button {
   }
 }
 
+///section-desc
+
 .description {
   background: url("../../assets/images/1-sec-bg.png") no-repeat;
   background-size: cover;
@@ -238,6 +240,9 @@ button {
     }
   }
 }
+
+
+/////section-order
 
 .order {
   background: url("../../assets/images/order-bg.png") no-repeat;
@@ -550,6 +555,8 @@ button {
   }
 }
 
+
+//////////////////////select2
 .select2-container--default .select2-selection--single .select2-selection__arrow {
   top: 10px !important;
 }
@@ -557,6 +564,7 @@ button {
 .select2-search--dropdown {
   display: none !important;
 }
+
 
 .select2-container {
   width: 32.5% !important;
@@ -589,6 +597,14 @@ button {
   background-color: #E5E5E5 !important;
 }
 
+.select2-container--default .select2-selection--single[aria-expanded=true] {
+  background-color: #3D4050 !important;
+
+  .select2-selection__rendered {
+    color: #FFFFFF !important;
+  }
+}
+
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
   background-color: #3D4050 !important;
   color: #42A9ED !important;
@@ -601,11 +617,12 @@ button {
   background-color: #3D4050 !important;
 
   &::-webkit-scrollbar {
-    width: 12px;               /* ширина scrollbar */
+    width: 7px; /* ширина scrollbar */
+    background: rgba(61, 64, 80, 0.85);
   }
 
   &::-webkit-scrollbar-track {
-    background: #3D4050;        /* цвет дорожки */
+    background: rgba(61, 64, 80, 0.85);        /* цвет дорожки */
   }
 
   &::-webkit-scrollbar-thumb {
@@ -613,9 +630,11 @@ button {
     border-radius: 3px;      /* закругления плашки */
     /* padding вокруг плашки */
   }
-
+  //////////////////////select2
 }
 
+
+//fooooter
 .footer {
   background-color: #3D4050;
   padding: 30px 0;
@@ -745,7 +764,10 @@ button {
     }
   }
 }
+//fooooter
 
+
+//media
 
 @media(max-width: 1200px) {
 
@@ -1024,3 +1046,4 @@ button {
     font-size: 11px;
   }
 }
+//media

@@ -481,6 +481,13 @@ button {
   background-color: #E5E5E5 !important;
 }
 
+.select2-container--default .select2-selection--single[aria-expanded=true] {
+  background-color: #3D4050 !important;
+}
+.select2-container--default .select2-selection--single[aria-expanded=true] .select2-selection__rendered {
+  color: #FFFFFF !important;
+}
+
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
   background-color: #3D4050 !important;
   color: #42A9ED !important;
@@ -494,11 +501,12 @@ button {
   background-color: #3D4050 !important;
 }
 .select2-container--default .select2-results > .select2-results__options::-webkit-scrollbar {
-  width: 12px;
+  width: 7px;
   /* ширина scrollbar */
+  background: rgba(61, 64, 80, 0.85);
 }
 .select2-container--default .select2-results > .select2-results__options::-webkit-scrollbar-track {
-  background: #3D4050;
+  background: rgba(61, 64, 80, 0.85);
   /* цвет дорожки */
 }
 .select2-container--default .select2-results > .select2-results__options::-webkit-scrollbar-thumb {
