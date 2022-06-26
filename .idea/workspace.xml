@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a341dd80-5464-404d-985e-dd1dd590cfc4" name="Changes" comment="#readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/src/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/src/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/src/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/src/main.scss" afterDir="false" />
@@ -41,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656151820541</updated>
       <workItem from="1656151821827" duration="5388000" />
-      <workItem from="1656245407257" duration="14905000" />
+      <workItem from="1656245407257" duration="16044000" />
     </task>
     <task id="LOCAL-00001" summary="#readme">
       <created>1656260778459</created>
